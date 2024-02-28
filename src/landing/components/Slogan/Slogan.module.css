@@ -1,0 +1,48 @@
+.sloganHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fc6b3f;
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 129%;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.logo {
+  margin-right: 36px;
+}
+
+@media (max-width: 1536px) {
+  .sloganHeading {
+    font-size: 52px;
+  }
+
+  .logo {
+    width: 451px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .sloganHeading {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sloganHeading {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sloganHeading {
+    font-size: 26px;
+  }
+}

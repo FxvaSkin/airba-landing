@@ -1,0 +1,34 @@
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.blockList {
+  display: flex;
+  margin-top: 88px;
+}
+
+.blockContainer {
+  position: relative;
+  flex: 1;
+}
+
+.blockText {
+  top: 70px;
+  left: 50px;
+  position: absolute;
+  color: #ffffff;
+
+  font-weight: 900;
+  line-height: 103.615%;
+}
+
+.blockTextLeft {
+  font-size: 96px;
+}
+
+.blockTextRight {
+  font-size: 70px;
+  line-height: normal;
+}

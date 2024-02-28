@@ -1,0 +1,110 @@
+.blocksContainer {
+  margin-top: 80px;
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageSweaters {
+  position: absolute;
+  transform: scaleX(-1);
+  right: 0;
+  bottom: 0;
+
+  height: auto;
+  width: 55%;
+}
+
+.imageSport {
+  position: absolute;
+  height: auto;
+  width: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+.imageGlasses {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  width: 70%;
+}
+
+.imageSneakers {
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+  height: auto;
+  width: 80%;
+}
+
+.blocksColumnContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  position: relative;
+  aspect-ratio: 9 / 8;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gradient1 {
+  background: linear-gradient(350deg, #b7afd6 -10.07%, #fff 43.6%),
+    linear-gradient(307deg, #0370d6 39.77%, rgba(196, 196, 196, 0) 91.74%);
+}
+
+.gradient2 {
+  background: linear-gradient(350deg, #cab293 -10.07%, #fff 43.6%);
+}
+
+.gradient3 {
+  background: linear-gradient(350deg, #cfb899 -10.07%, #fff 43.6%), #d9d9d9;
+}
+
+.gradient4 {
+  background: linear-gradient(350deg, #677b6f -10.07%, #fff 43.6%),
+    linear-gradient(307deg, #c4c4c4 8.59%, rgba(196, 196, 196, 0) 91.74%);
+}
+
+.blockTextBig {
+  top: 48px;
+  left: 48px;
+  background: linear-gradient(
+    90deg,
+    #fd7842 0%,
+    #b346b0 34.38%,
+    #605cd7 68.23%,
+    #319cf3 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 92.9%;
+}
+
+.blockTextSmall {
+  top: 48px;
+  left: 24px;
+  color: #10142d;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 112%;
+}
+
+.blockTextBig,
+.blockTextSmall {
+  position: absolute;
+}

@@ -1,0 +1,78 @@
+.heading {
+  color: #1c2244;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: normal;
+  margin: 80px 48px 52px;
+}
+
+.productCardList {
+  display: flex;
+  column-gap: 38px;
+  list-style: none;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 8px 12px;
+  width: 192px;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.imageWrapper {
+  height: 218px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productPrice {
+  margin-top: 8px;
+  color: #10142d;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 155.556%;
+}
+
+.productTitle {
+  margin-top: 8px;
+  color: #383e61;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.buttons {
+  margin-top: 34px;
+  display: flex;
+  column-gap: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  border-radius: 4px;
+}
+
+.buttonPrimary {
+  padding: 0 12px;
+  color: #ffffff;
+  background-color: #319cf3;
+  flex: 1;
+}
+
+.buttonSecondary {
+  padding: 0 10px;
+  background-color: #ffffff;
+  border: 1px solid #e6e9fa;
+}

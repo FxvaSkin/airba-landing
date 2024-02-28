@@ -1,0 +1,26 @@
+.partnersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 397px;
+  border-radius: 200px;
+  flex-shrink: 0;
+  background-color: #10142d;
+  padding: 60px 220px;
+  margin: 109px 52px 72px;
+}
+
+.partnersText {
+  color: #fff;
+  text-align: center;
+  font-size: 80.706px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}

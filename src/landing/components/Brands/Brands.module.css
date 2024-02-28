@@ -1,0 +1,27 @@
+.image {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.brandList {
+  display: flex;
+  transform: translate(0, -50%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -8vh;
+}
+
+.brandContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+
+  background-color: #ffffff;
+
+  flex: 1;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}

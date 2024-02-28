@@ -1,0 +1,6 @@
+export { default as rayBanImage } from './ray-ban.svg'
+export { default as adidasImage } from './adidas.svg'
+export { default as karacaImage } from './karaca.svg'
+export { default as nikeImage } from './nike.svg'
+export { default as pumaImage } from './puma.svg'
+export { default as juneImage } from './june.jpg'

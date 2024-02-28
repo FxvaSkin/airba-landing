@@ -1,0 +1,6 @@
+export { default as dress1Image } from './d1.jpeg'
+export { default as dress2Image } from './d2.jpeg'
+export { default as dress3Image } from './d3.jpeg'
+export { default as dress4Image } from './d4.jpeg'
+export { default as dress5Image } from './d5.jpeg'
+export { default as dress6Image } from './d6.jpeg'
