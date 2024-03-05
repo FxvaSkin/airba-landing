@@ -35,3 +35,15 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .heading {
+    text-align: center;
+    font-size: 25px;
+    margin: 52px 48px 20px;
+  }
+
+  .dressList {
+    padding: 0 24px;
+  }
+}

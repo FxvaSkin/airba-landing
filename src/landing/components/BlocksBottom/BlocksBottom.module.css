@@ -1,10 +1,17 @@
 .blocksContainer {
-  margin-top: 80px;
   display: flex;
+}
+
+.marginTop {
+  margin-top: 80px;
 }
 
 .flex1 {
   flex: 1;
+}
+
+.flex85 {
+  flex: 0.85;
 }
 
 .image {
@@ -54,7 +61,7 @@
 
 .block {
   position: relative;
-  aspect-ratio: 9 / 8;
+  aspect-ratio: 4 / 3;
   width: 100%;
   overflow: hidden;
 }
@@ -107,4 +114,24 @@
 .blockTextBig,
 .blockTextSmall {
   position: absolute;
+}
+
+@media (max-width: 768px) {
+  .blocksContainer {
+    flex-direction: column;
+  }
+
+  .blockTextBig {
+    top: 24px;
+    left: 20px;
+    font-size: 32px;
+    line-height: 92.9%;
+  }
+
+  .blockTextSmall {
+    top: 32px;
+    left: 20px;
+    font-size: 36px;
+    line-height: 112%;
+  }
 }

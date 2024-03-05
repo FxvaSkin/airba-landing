@@ -25,3 +25,15 @@
   aspect-ratio: 1 / 1;
   border-radius: 50%;
 }
+
+@media (max-width: 1550px) {
+  .image {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .brandContainer:nth-last-child(-n + 3) {
+    display: none;
+  }
+}
