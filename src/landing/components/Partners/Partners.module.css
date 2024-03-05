@@ -2,25 +2,68 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 397px;
+  min-height: 397px;
   border-radius: 200px;
   flex-shrink: 0;
   background-color: #10142d;
   padding: 60px 220px;
   margin: 109px 52px 72px;
+  gap: 66px;
 }
 
 .partnersText {
   color: #fff;
   text-align: center;
-  font-size: 80.706px;
+  font-size: 80px;
   font-weight: 700;
   line-height: normal;
 }
 
 .row {
   display: flex;
+  column-gap: 66px;
+  row-gap: 16px;
   justify-content: space-between;
 
   align-items: center;
+}
+
+.airbaImage {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.break {
+  display: none;
+}
+
+@media (max-width: 1250px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .partnersText {
+    font-size: 60px;
+  }
+
+  .airbaImage {
+    width: 213px;
+  }
+
+  .partnersContainer {
+    margin: 22px 16px 0;
+    padding: 100px 66px;
+  }
+
+  .textSecondary {
+    font-size: 30px;
+    white-space: nowrap;
+  }
+
+  .break {
+    display: block;
+  }
 }

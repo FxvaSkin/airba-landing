@@ -47,3 +47,11 @@
 .arrow {
   flex-shrink: 0;
 }
+
+@media (max-width: 768px) {
+  .heading {
+    text-align: center;
+    font-size: 25px;
+    margin: 52px 48px 20px;
+  }
+}

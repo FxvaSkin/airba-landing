@@ -39,30 +39,6 @@
   transform-origin: top left;
 }
 
-@media only screen and (max-width: 1790px) {
-  .bannerContent {
-    margin-left: 65px;
-  }
-}
-
-@media only screen and (max-width: 1550px) {
-  .bannerContent {
-    transform: scale(80%);
-  }
-}
-
-@media only screen and (max-width: 1250px) {
-  .bannerContent {
-    transform: scale(65%);
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .bannerContent {
-    transform: scale(60%);
-  }
-}
-
 .bannerHeading {
   font-size: 55px;
   font-weight: 700;
@@ -75,5 +51,61 @@
 
 .airbaTag {
   display: block;
-  flex-shrink: 0;
+  height: auto;
+  padding: 16px;
+}
+
+@media (max-width: 1790px) {
+  .bannerContent {
+    margin-left: 65px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .bannerContent {
+    transform: scale(80%);
+  }
+}
+
+@media (max-width: 1250px) {
+  .bannerContent {
+    transform: scale(65%);
+  }
+}
+
+@media (max-width: 1150px) {
+  .bannerContent {
+    transform: scale(60%);
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerHeading {
+    font-size: 22px;
+    line-height: 150%;
+    padding: 16px;
+  }
+
+  .bannerFrontWrapper {
+    top: unset;
+    right: unset;
+    bottom: 0;
+    width: 120%;
+    left: -35px;
+  }
+
+  .bannerBackgroundWrapper {
+    aspect-ratio: 3 / 5;
+  }
+
+  .airbaTag {
+    width: 100%;
+  }
+
+  .bannerContent {
+    row-gap: 8px;
+    margin-top: 0;
+    margin-left: 0;
+    transform: scale(1);
+  }
 }

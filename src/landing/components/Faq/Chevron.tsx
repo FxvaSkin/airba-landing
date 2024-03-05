@@ -18,8 +18,8 @@ const Chevron: FC<Props> = ({ className }) => {
         id="Vector"
         d="M1 1.5L11.5003 11.5L22 1.5"
         stroke="#10142D"
-        stroke-width="2"
-        stroke-miterlimit="22.9256"
+        strokeWidth="2"
+        strokeMiterlimit="22.9256"
       />
     </svg>
   )

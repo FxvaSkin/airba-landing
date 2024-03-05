@@ -32,3 +32,23 @@
   font-size: 70px;
   line-height: normal;
 }
+
+@media (max-width: 768px) {
+  .blockText {
+    top: 30px;
+    left: 20px;
+  }
+
+  .blockTextLeft {
+    font-size: 36px;
+  }
+
+  .blockTextRight {
+    font-size: 26px;
+  }
+
+  .blockList {
+    margin-top: 48px;
+    flex-direction: column;
+  }
+}

@@ -18,8 +18,18 @@ const Partners: FC<Props> = () => {
   return (
     <div className={styles.partnersContainer}>
       <div className={styles.row}>
-        <span className={styles.partnersText}>0-0-12 от партнеров</span>
-        <Image src={airbaImage} alt="airba logo" width={446} height={56} />
+        <span className={styles.partnersText}>
+          <span>0-0-12</span> <br className={styles.break} />
+          <span className={styles.textSecondary}>от партнеров</span>
+        </span>
+
+        <Image
+          src={airbaImage}
+          alt="airba logo"
+          width={446}
+          height={56}
+          className={styles.airbaImage}
+        />
       </div>
 
       <div className={styles.row}>

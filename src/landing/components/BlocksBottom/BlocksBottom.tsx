@@ -16,7 +16,7 @@ interface Props {}
 
 const BlocksBottom: FC<Props> = () => {
   return (
-    <div className={styles.blocksContainer}>
+    <div className={clsx(styles.blocksContainer, styles.marginTop)}>
       <div className={clsx(styles.block, styles.flex1)}>
         <span className={styles.blockTextBig}>
           Уют в <br />
