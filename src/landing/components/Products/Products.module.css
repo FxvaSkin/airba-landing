@@ -95,7 +95,7 @@
   }
 
   .productCardList {
-    padding: 0 24px;
+    padding: 0 16px;
     column-gap: 10px;
   }
 }

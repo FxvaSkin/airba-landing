@@ -53,6 +53,7 @@
   display: block;
   height: auto;
   padding: 16px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1790px) {

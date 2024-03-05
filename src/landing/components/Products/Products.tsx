@@ -103,41 +103,6 @@ const forWomen: Product[] = [
 
 const forMen: Product[] = [
   {
-    id: '1',
-    title: 'Толстовка мужская Tena Moda',
-    imageSrc: male1Image,
-    price: 12208,
-    href: 'https://airba.kz/product/tolstovka-muzhskaya-tena-moda-seryj-m-588087',
-  },
-  {
-    id: '2',
-    title: 'Мужская кожаная куртка Basics&more',
-    imageSrc: male2Image,
-    price: 64033,
-    href: 'https://airba.kz/product/muzhskaya-kozhanaya-kurtka-basicsandmore-717628',
-  },
-  {
-    id: '3',
-    title: 'Серый шерстяной свитер CO Cewo Tricot',
-    imageSrc: male3Image,
-    price: 31688,
-    href: 'https://airba.kz/product/seryj-melanzhevyj-sherstyanoj-sviter-co-cewo-tricot-komfortnogo-kroya-s-v-obraznym-vyrezom-772544',
-  },
-  {
-    id: '4',
-    title: 'Мужская футболка-поло Thewildwalking',
-    imageSrc: male4Image,
-    price: 9302,
-    href: 'https://airba.kz/product/muzhskaya-futbolka-polo-s-kruglym-vyrezom-thewildwalking-797930',
-  },
-  {
-    id: '5',
-    title: 'Белые льняные туфли zerhan на шнуровке',
-    imageSrc: male5Image,
-    price: 7262,
-    href: 'https://airba.kz/product/belye-lnyanye-tufli-zerhan-na-shnurovke-797452',
-  },
-  {
     id: '6',
     title: 'Толстовка мужская U.S. Polo Assn.18469 Серая',
     imageSrc: male6Image,
@@ -171,6 +136,41 @@ const forMen: Product[] = [
     imageSrc: male10Image,
     price: 39232,
     href: 'https://airba.kz/product/bueno-shoes-gray-dark-suede-mens-boots-695759',
+  },
+  {
+    id: '1',
+    title: 'Толстовка мужская Tena Moda',
+    imageSrc: male1Image,
+    price: 12208,
+    href: 'https://airba.kz/product/tolstovka-muzhskaya-tena-moda-seryj-m-588087',
+  },
+  {
+    id: '2',
+    title: 'Мужская кожаная куртка Basics&more',
+    imageSrc: male2Image,
+    price: 64033,
+    href: 'https://airba.kz/product/muzhskaya-kozhanaya-kurtka-basicsandmore-717628',
+  },
+  {
+    id: '3',
+    title: 'Серый шерстяной свитер CO Cewo Tricot',
+    imageSrc: male3Image,
+    price: 31688,
+    href: 'https://airba.kz/product/seryj-melanzhevyj-sherstyanoj-sviter-co-cewo-tricot-komfortnogo-kroya-s-v-obraznym-vyrezom-772544',
+  },
+  {
+    id: '4',
+    title: 'Мужская футболка-поло Thewildwalking',
+    imageSrc: male4Image,
+    price: 9302,
+    href: 'https://airba.kz/product/muzhskaya-futbolka-polo-s-kruglym-vyrezom-thewildwalking-797930',
+  },
+  {
+    id: '5',
+    title: 'Белые льняные туфли zerhan на шнуровке',
+    imageSrc: male5Image,
+    price: 7262,
+    href: 'https://airba.kz/product/belye-lnyanye-tufli-zerhan-na-shnurovke-797452',
   },
 ]
 

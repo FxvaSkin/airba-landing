@@ -40,6 +40,11 @@
   .sloganHeading {
     font-size: 34px;
   }
+
+  .logo {
+    width: 295px;
+    margin-right: 16px;
+  }
 }
 
 @media (max-width: 768px) {

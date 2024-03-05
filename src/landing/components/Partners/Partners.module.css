@@ -38,6 +38,12 @@
   display: none;
 }
 
+@media (max-width: 1550px) {
+  .partnersContainer {
+    padding: 60px 100px;
+  }
+}
+
 @media (max-width: 1250px) {
   .row {
     flex-direction: column;
