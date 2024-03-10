@@ -33,6 +33,26 @@
   line-height: normal;
 }
 
+@media (max-width: 1550px) {
+  .blockTextLeft {
+    font-size: 70px;
+  }
+
+  .blockTextRight {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .blockTextLeft {
+    font-size: 60px;
+  }
+
+  .blockTextRight {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .blockText {
     top: 30px;

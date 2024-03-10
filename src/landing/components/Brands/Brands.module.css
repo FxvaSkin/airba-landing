@@ -2,6 +2,7 @@
   display: block;
   max-width: 100%;
   object-fit: contain;
+  box-sizing: border-box;
 }
 
 .brandList {
@@ -10,7 +11,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: -8vh;
+  margin-bottom: -8vw;
 }
 
 .brandContainer {
