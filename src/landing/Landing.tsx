@@ -34,7 +34,7 @@ const Landing: FC = () => {
       <BlocksBottom />
       <Products />
       <HowTo />
-      <Partners />
+      {/* <Partners /> */}
       <Faq />
     </main>
   )

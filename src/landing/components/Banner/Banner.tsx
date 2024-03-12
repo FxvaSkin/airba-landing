@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import { AirbaTag } from './AirbaTag'
 
-import { bannerBackgroundImage, bannerFrontImage } from './images'
+import { bannerFrontImage } from './images'
 import styles from './Banner.module.css'
 
 import type { FC } from 'react'
@@ -14,21 +14,29 @@ const Banner: FC<Props> = () => {
   return (
     <div className={styles.bannerContainer}>
       <div className={styles.bannerContent}>
-        <h2 className={styles.bannerHeading}>
-          Широкий ассортимент
-          <br />
-          одежды и обуви из Турции
-        </h2>
+        <div className={styles.airbaTagWrapper}>
+          <AirbaTag className={styles.airbaTag} />
+        </div>
 
-        <AirbaTag className={styles.airbaTag} />
-      </div>
+        <div className={styles.bannerHeadingWrapper}>
+          <div className={styles.bannerHeading}>
+            <span>Широкий ассортимент</span>
+            <br />
+            <span>одежды и обуви из Турции</span>
 
-      <div className={styles.bannerBackgroundWrapper}>
-        <Image
-          src={bannerBackgroundImage}
-          alt="back"
-          className={clsx(styles.image, styles.bannerBackground)}
-        />
+            <div
+              className={styles.airbaButtonWrapper}
+              onClick={() =>
+                window.open(
+                  'https://airba.kz/category/zhenskaya-odezhda-500',
+                  '_blank',
+                )
+              }
+            >
+              <span className={styles.airbaButtonTitle}>Перейти на сайт</span>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className={styles.bannerFrontWrapper}>

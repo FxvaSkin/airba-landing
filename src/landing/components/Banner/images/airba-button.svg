@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="261"
+  height="40"
+  viewBox="0 0 261 40"
+  fill="none"
+  className="{styles.airbaButton}"
+>
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M17.9227 4.72938e-05L255.131 0.133333C259.493 0.143222 261.969 3.74322 260.642 8.12875L253.431 31.8536C252.098 36.2396 247.439 39.8189 243.077 39.8039L5.86839 39.6732C1.50497 39.6603 -0.971084 36.0641 0.360073 31.676L7.56864 7.94817C8.90108 3.56307 13.5606 -0.0150011 17.9227 4.72938e-05Z"
+    fill="url(#paint0_linear_354_6307)"
+  />
+  <defs>
+    <linearGradient
+      id="paint0_linear_354_6307"
+      x1="0.00244882"
+      y1="19.9113"
+      x2="261.01"
+      y2="19.9113"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#FD7842" />
+      <stop offset="0.3438" stop-color="#B346B0" />
+      <stop offset="0.6823" stop-color="#605CD7" />
+      <stop offset="1" stop-color="#319CF3" />
+    </linearGradient>
+  </defs>
+</svg>
