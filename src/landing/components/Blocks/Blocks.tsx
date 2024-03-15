@@ -11,7 +11,15 @@ interface Props {}
 const Blocks: FC<Props> = () => {
   return (
     <div className={styles.blockList}>
-      <div className={styles.blockContainer}>
+      <div
+        className={styles.blockContainer}
+        onClick={() =>
+          window.open(
+            'https://airba.kz/category/verhnyaya-odezhda-507',
+            '_blank',
+          )
+        }
+      >
         <Image src={springImage} alt="spring" className={styles.image} />
         <span className={clsx(styles.blockText, styles.blockTextLeft)}>
           Весна
@@ -19,7 +27,13 @@ const Blocks: FC<Props> = () => {
           2024
         </span>
       </div>
-      <div className={styles.blockContainer}>
+
+      <div
+        className={styles.blockContainer}
+        onClick={() =>
+          window.open('https://airba.kz/category/muzhskaya-obuv-455', '_blank')
+        }
+      >
         <Image src={shoesImage} alt="shoes" className={styles.image} />
         <span className={clsx(styles.blockText, styles.blockTextRight)}>
           Обувь

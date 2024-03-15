@@ -19,9 +19,7 @@
   align-items: center;
   justify-content: center;
   height: 50%;
-
   background-color: #ffffff;
-
   flex: 1;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
@@ -34,7 +32,11 @@
 }
 
 @media (max-width: 768px) {
-  .brandContainer:nth-last-child(-n + 3) {
-    display: none;
+  .brandContainer {
+    min-width: 33.3333vw;
+  }
+
+  .brandList {
+    overflow: auto;
   }
 }

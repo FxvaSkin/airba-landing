@@ -17,7 +17,10 @@ interface Props {
 
 const ProductCard: FC<Props> = ({ imageSrc, price, title, href }) => {
   return (
-    <a href={href} className={styles.productCard}>
+    <div
+      onClick={() => window.open(href, '_blank')}
+      className={styles.productCard}
+    >
       <div className={styles.imageWrapper}>
         <Image src={imageSrc} alt={title} className={styles.image} />
       </div>
@@ -44,7 +47,7 @@ const ProductCard: FC<Props> = ({ imageSrc, price, title, href }) => {
           </svg>
         </div>
       </div>
-    </a>
+    </div>
   )
 }
 

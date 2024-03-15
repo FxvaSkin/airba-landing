@@ -17,7 +17,15 @@ interface Props {}
 const BlocksBottom: FC<Props> = () => {
   return (
     <div className={clsx(styles.blocksContainer, styles.marginTop)}>
-      <div className={clsx(styles.block, styles.flex1)}>
+      <div
+        className={clsx(styles.block, styles.flex1)}
+        onClick={() =>
+          window.open(
+            'https://airba.kz/category/odezhda-dlya-doma-i-sna-562',
+            '_blank',
+          )
+        }
+      >
         <span className={styles.blockTextBig}>
           Уют в <br />
           домашней <br />
@@ -28,7 +36,15 @@ const BlocksBottom: FC<Props> = () => {
 
       <div className={clsx(styles.blocksRowContainer, styles.flex1)}>
         <div className={styles.blocksContainer}>
-          <div className={clsx(styles.block, styles.gradient1)}>
+          <div
+            className={clsx(styles.block, styles.gradient1)}
+            onClick={() =>
+              window.open(
+                'https://airba.kz/category/kofty-i-svitery-525',
+                '_blank',
+              )
+            }
+          >
             <Image
               src={sweatersImage}
               alt="comfort"
@@ -37,7 +53,15 @@ const BlocksBottom: FC<Props> = () => {
             <span className={styles.blockTextSmall}>Свитера</span>
           </div>
 
-          <div className={clsx(styles.block, styles.gradient2)}>
+          <div
+            className={clsx(styles.block, styles.gradient2)}
+            onClick={() =>
+              window.open(
+                'https://airba.kz/category/sportivnyj-kostyum-558',
+                '_blank',
+              )
+            }
+          >
             <Image src={sportImage} alt="sport" className={styles.imageSport} />
             <span className={styles.blockTextSmall}>
               Спортивные <br />
@@ -46,7 +70,15 @@ const BlocksBottom: FC<Props> = () => {
           </div>
         </div>
 
-        <div className={styles.blocksContainer}>
+        <div
+          className={styles.blocksContainer}
+          onClick={() =>
+            window.open(
+              'https://airba.kz/search?search_query=ray%20ban',
+              '_blank',
+            )
+          }
+        >
           <div className={clsx(styles.block, styles.gradient3)}>
             <Image
               src={glassesImage}
@@ -56,7 +88,15 @@ const BlocksBottom: FC<Props> = () => {
             <span className={styles.blockTextSmall}>Очки RayBan</span>
           </div>
 
-          <div className={clsx(styles.block, styles.gradient4)}>
+          <div
+            className={clsx(styles.block, styles.gradient4)}
+            onClick={() =>
+              window.open(
+                'https://airba.kz/category/krossovki-i-kedy-461',
+                '_blank',
+              )
+            }
+          >
             <Image
               src={sneakersImage}
               alt="sneakers"
