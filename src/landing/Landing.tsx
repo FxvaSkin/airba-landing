@@ -24,11 +24,9 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 const Landing: FC = () => {
   return (
     <main className={clsx(styles.pageContainer, montserrat.className)}>
-      {/* technodom header, TODO: should be removed */}
-      <div style={{ height: '124px' }} />
       <Banner />
       <Brands />
-      <Slogan />
+      {/* <Slogan /> */}
       <Blocks />
       <Dresses />
       <BlocksBottom />

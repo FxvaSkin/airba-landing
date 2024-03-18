@@ -54,4 +54,18 @@
     font-size: 25px;
     margin: 52px 48px 20px;
   }
+
+  .cardList {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .howtoCard {
+    width: 292px;
+    height: 292px;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+  }
 }

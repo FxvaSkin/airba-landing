@@ -32,7 +32,7 @@ const forWomen: Product[] = [
   {
     id: '1',
     title: 'Женские сапоги на каблуке из черной кожи Bueno',
-    imageSrc: female1Image,
+    imageSrc: female3Image,
     price: 35876,
     href: 'https://airba.kz/product/zhenskie-sapogi-na-kabluke-iz-chernoj-kozhi-bueno-744297',
   },
@@ -46,7 +46,7 @@ const forWomen: Product[] = [
   {
     id: '3',
     title: 'Бордово-красная сумка через плечо с принтом Pierre Cardin',
-    imageSrc: female3Image,
+    imageSrc: female1Image,
     price: 30959,
     href: 'https://airba.kz/product/bordovo-krasnaya-sumka-cherez-plecho-s-printom-pierre-cardin-05po22y1554-p-br-688906',
   },
@@ -54,15 +54,15 @@ const forWomen: Product[] = [
     id: '4',
     title: 'Женская клетчатая рубашка лесоруба EDZ',
     imageSrc: female4Image,
-    price: 16400,
-    href: 'https://airba.kz/product/rubashka-zhenskaya-holly-lolly-s-temno-sinij-609165',
+    price: 15342,
+    href: 'https://airba.kz/product/zhenskaya-kletchataya-rubashka-lesoruba-edz-modelnoe-palto-799057',
   },
   {
     id: '5',
     title: 'Платье женское June',
     imageSrc: female5Image,
     price: 19411,
-    href: 'https://airba.kz/product/rubashka-zhenskaya-holly-lolly-s-temno-sinij-609165',
+    href: 'https://airba.kz/product/plate-zhenskoe-june-chernyj-36-674298',
   },
   {
     id: '6',
@@ -75,7 +75,7 @@ const forWomen: Product[] = [
     id: '7',
     title: 'Пальто женское Markapia, серый',
     imageSrc: female7Image,
-    price: 50456,
+    price: 35969,
     href: 'https://airba.kz/product/palto-zhenskoe-markapia-seryj-689692',
   },
   {
@@ -106,7 +106,7 @@ const forMen: Product[] = [
     id: '6',
     title: 'Толстовка мужская U.S. Polo Assn.18469 Серая',
     imageSrc: male6Image,
-    price: 17922,
+    price: 22513,
     href: 'https://airba.kz/product/tolstovka-muzhskaya-u-s-polo-assn-18469-seraya-635473',
   },
   // {
@@ -120,7 +120,7 @@ const forMen: Product[] = [
     id: '8',
     title: 'Очки солнцезащитные унисекс Ray-Ban RB2140 901 50 Черные',
     imageSrc: male8Image,
-    price: 64400,
+    price: 58562,
     href: 'https://airba.kz/product/ochki-solncezaschitnye-uniseks-ray-ban-rb2140-901-50-chernye-783926',
   },
   {
@@ -141,14 +141,14 @@ const forMen: Product[] = [
     id: '1',
     title: 'Толстовка мужская Tena Moda',
     imageSrc: male1Image,
-    price: 12208,
+    price: 13332,
     href: 'https://airba.kz/product/tolstovka-muzhskaya-tena-moda-seryj-m-588087',
   },
   {
     id: '2',
     title: 'Мужская кожаная куртка Basics&more',
     imageSrc: male2Image,
-    price: 64033,
+    price: 68549,
     href: 'https://airba.kz/product/muzhskaya-kozhanaya-kurtka-basicsandmore-717628',
   },
   {

@@ -60,6 +60,7 @@
 }
 
 .block {
+  cursor: pointer;
   position: relative;
   aspect-ratio: 4 / 3;
   width: 100%;
@@ -85,6 +86,7 @@
 }
 
 .blockTextBig {
+  position: absolute;
   top: 48px;
   left: 48px;
   background: linear-gradient(
@@ -103,6 +105,7 @@
 }
 
 .blockTextSmall {
+  position: absolute;
   top: 48px;
   left: 24px;
   color: #10142d;
@@ -111,9 +114,16 @@
   line-height: 112%;
 }
 
-.blockTextBig,
-.blockTextSmall {
+.selectButton {
   position: absolute;
+  bottom: 70px;
+  left: 53px;
+  padding: 20px 60px;
+  background-color: white;
+  border-radius: 60px;
+  font-size: 27px;
+  font-weight: 800;
+  color: #10142d;
 }
 
 @media (max-width: 1550px) {
@@ -138,6 +148,13 @@
     left: 16px;
     font-size: 25px;
   }
+
+  .selectButton {
+    left: 24px;
+    bottom: 32px;
+    font-size: 20px;
+    padding: 16px 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -157,5 +174,9 @@
     left: 20px;
     font-size: 36px;
     line-height: 112%;
+  }
+
+  .selectButton {
+    display: none;
   }
 }
