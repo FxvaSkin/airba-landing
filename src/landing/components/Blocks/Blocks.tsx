@@ -26,6 +26,8 @@ const Blocks: FC<Props> = () => {
           <br />
           2024
         </span>
+
+        <span className={clsx(styles.blockTextLeftBottom)}>Будь на стиле</span>
       </div>
 
       <div

@@ -11,6 +11,7 @@ import styles from './BlocksBottom.module.css'
 
 import type { FC } from 'react'
 import clsx from 'clsx'
+import { formatCurrency } from 'landing/utils/formatCurrency'
 
 interface Props {}
 
@@ -32,6 +33,7 @@ const BlocksBottom: FC<Props> = () => {
           одежде
         </span>
         <Image src={comfortImage} alt="comfort" className={styles.image} />
+        <span className={styles.selectButton}>выбрать</span>
       </div>
 
       <div className={clsx(styles.blocksRowContainer, styles.flex1)}>
@@ -65,7 +67,8 @@ const BlocksBottom: FC<Props> = () => {
             <Image src={sportImage} alt="sport" className={styles.imageSport} />
             <span className={styles.blockTextSmall}>
               Спортивные <br />
-              костюмы
+              костюмы <br />
+              <strong>20%</strong>
             </span>
           </div>
         </div>
@@ -85,7 +88,11 @@ const BlocksBottom: FC<Props> = () => {
               alt="glasses"
               className={styles.imageGlasses}
             />
-            <span className={styles.blockTextSmall}>Очки RayBan</span>
+            <span className={styles.blockTextSmall}>
+              Очки RayBan
+              <br />
+              <strong>30% скидка</strong>
+            </span>
           </div>
 
           <div
@@ -102,7 +109,11 @@ const BlocksBottom: FC<Props> = () => {
               alt="sneakers"
               className={styles.imageSneakers}
             />
-            <span className={styles.blockTextSmall}>Кроссовки</span>
+            <span className={styles.blockTextSmall}>
+              Кроссовки
+              <br />
+              от <strong>{formatCurrency(49999)}</strong>
+            </span>
           </div>
         </div>
       </div>
